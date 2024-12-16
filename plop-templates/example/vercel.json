@@ -1,4 +1,15 @@
 {
   "buildCommand": "pnpm turbo build",
-  "ignoreCommand": "pnpm dlx turbo-ignore"
+  "ignoreCommand": "pnpm dlx turbo-ignore",
+  "framework": "nextjs",
+  "public": true,
+  "env": {
+    "NEXT_PUBLIC_API_URL": "https://api.example.com"
+  },
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    }
+  ]
 }

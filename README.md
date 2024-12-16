@@ -21,39 +21,86 @@ Multiple examples are being featured in [Vercel's Templates](https://vercel.com/
 
 Examples that have front matter metadata will create a new Draft template in [Contentful](https://app.contentful.com), for more steps on how to publish a template, read [Publishing Templates](./internal/publishing-templates.md).
 
-## Adding a new example
+## Getting Started
 
-To quickly start contributing with a new example, run the following commands:
+To get started with this repository, follow these steps:
 
-```bash
-pnpm i
-pnpm new-example
-```
-
-If the script above isn't used, make sure the example complies with the following:
-
-- It must have a `.gitignore` similar to [plop-templates/example/.gitignore](./plop-templates/example/.gitignore)
-- It must have a `package.json` similar to [plop-templates/example/package.json](./plop-templates/example/package.json) (usage of Next.js is optional). The license should be `MIT`
-- It must have a `README.md` similar to [plop-templates/example/README.md](./plop-templates/example/README.md). The example has to be able to include a demo URL (the Vercel team will deploy it!) and if it requires environment variables, it must have a `.env.example` file and instructions on how to set them up. Take [bot-protection-datadome](./edge-middleware/bot-protection-datadome/README.md) as an example.
-  - To customize the Vercel Deploy Button take a look at the [docs](https://vercel.com/docs/deploy-button), useful if the deployment has required environment variables.
-- If using Next.js, it must have a `.eslintrc.json` similar to [plop-templates/example/.eslintrc.json](./plop-templates/example/.eslintrc.json)
-- All Next.js examples should be using the same styling and layout provided by `@vercel/examples-ui`, its usage can be seen in the [plop template](./plop-templates/example)
-
-### Adding a template
-
-If you would like the example to be featured in [vercel.com/templates](https://vercel.com/templates) then also add the front matter metadata to the top of the readme, like in [bot-protection-datadome](./edge-middleware/bot-protection-datadome/README.md). To know all the possible values for each metadata take a look at [`internal/fields.json`](./internal/fields.json).
-
-If you want to add related templates to your template, copy the `slug` from the other template into the `relatedTemplates` field, for example for [vercel.com/templates/next.js/monorepo-turborepo](https://vercel.com/templates/next.js/monorepo-turborepo) the slug is `monorepo-turborepo`, as written in [solutions/monorepo/README.md](./solutions/monorepo/README.md)
-
-### The pre-commit hook
-
-We use [Husky](https://typicode.github.io/husky/#/) to manage the pre-commit [Git hook](https://git-scm.com/docs/githooks) in this repo. Husky configures hooks automatically during install, so you don't need to do anything special to get them working, but if it fails to install, you can run the following command to install it manually:
+1. Clone the repository:
 
 ```bash
-pnpm run prepare
+git clone https://github.com/vercel/examples.git
+cd examples
 ```
 
-Code changes automatically go through Prettier and ESLint when you make a commit, **please do not skip these steps** unless they're broken and in that case let us known by creating an issue.
+2. Install the dependencies:
+
+```bash
+pnpm install
+```
+
+3. Run the development server:
+
+```bash
+pnpm dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Features
+
+- Curated collection of examples and solutions
+- High-performance APIs with Edge Functions
+- Speed and personalization with Edge Middleware
+- Demos, Architectures, and Best Practices
+- Fully functional starter applications
+
+## Usage
+
+You can use this repository to build your own robust and scalable applications. Here are some examples:
+
+- [Edge Functions](/edge-functions) – Build high-performance APIs that are deployed to every Edge Network region. [Learn more.](https://vercel.com/docs/concepts/functions/edge-functions)
+- [Edge Middleware](/edge-middleware) – Provide speed and personalization to your users. [Learn more.](https://vercel.com/docs/concepts/functions/edge-middleware)
+- [Solutions](/solutions) – Demos, Architectures, and Best Practices
+- [Starter](/starter) – Fully functional applications that encompass an idea as a robust starting point.
+
+## Contributing
+
+We welcome contributions to this repository. To contribute, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+
+```bash
+git checkout -b my-feature-branch
+```
+
+3. Make your changes and commit them:
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push your changes to your fork:
+
+```bash
+git push origin my-feature-branch
+```
+
+5. Open a pull request with a description of your changes.
+
+## FAQ
+
+### How do I report an issue?
+
+To report an issue, please open a [GitHub Issue](https://github.com/vercel/examples/issues) and provide as much detail as possible.
+
+### How can I request a new example?
+
+To request a new example, please open a [GitHub Discussion](https://github.com/vercel/examples/discussions) and describe the example you would like to see.
+
+### How can I contribute to the documentation?
+
+To contribute to the documentation, please follow the steps in the [Contributing](#contributing) section above.
 
 ## Read the Docs
 
