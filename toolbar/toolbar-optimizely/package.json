@@ -14,7 +14,7 @@
     "@vercel/toolbar": "^0.1.10",
     "next": "latest",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@types/node": "^20",
