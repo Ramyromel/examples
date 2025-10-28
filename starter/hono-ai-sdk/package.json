@@ -3,7 +3,7 @@
   "type": "module",
   "dependencies": {
     "ai": "5.0.0-beta.34",
-    "hono": "^4.8.9"
+    "hono": "^4.10.3"
   },
   "devDependencies": {
     "@types/node": "^20.11.17",
