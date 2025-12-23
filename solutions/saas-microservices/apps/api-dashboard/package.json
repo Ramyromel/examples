@@ -9,7 +9,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@vercel/microfrontends": "2.0.0",
+    "@vercel/microfrontends": "2.0.1",
     "nitropack": "latest"
   }
 }
