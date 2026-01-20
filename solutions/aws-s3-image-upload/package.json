@@ -16,7 +16,7 @@
     "aws-crt": "^1.19.0",
     "aws-sdk": "^2.1497.0",
     "encoding": "^0.1.13",
-    "eslint": "8.53.0",
+    "eslint": "9.0.0",
     "eslint-config-next": "14.0.2",
     "next": "^14.2.35",
     "react": "18.2.0",
