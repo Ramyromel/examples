@@ -41,7 +41,7 @@
     ]
   },
   "dependencies": {
-    "@builder.io/personalization-utils": "0.0.7",
+    "@builder.io/personalization-utils": "1.0.0",
     "@builder.io/react": "^1.1.47",
     "@builder.io/utils": "^1.0.4",
     "@szhsin/react-menu": "^2.3.3",
@@ -63,7 +63,7 @@
     "@types/node": "^17.0.14",
     "@types/react": "^17.0.38",
     "autoprefixer": "^10.4.2",
-    "eslint": "^8.9.0",
+    "eslint": "^9.26.0",
     "eslint-config-next": "canary",
     "postcss": "^8.4.6",
     "tailwindcss": "^3.0.18",
