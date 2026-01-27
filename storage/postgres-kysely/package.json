@@ -16,7 +16,7 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "autoprefixer": "10.4.16",
-    "eslint": "8.51.0",
+    "eslint": "9.26.0",
     "eslint-config-next": "13.5.4",
     "kysely": "^0.26.3",
     "kysely-postgres-js": "^2.0.0",
