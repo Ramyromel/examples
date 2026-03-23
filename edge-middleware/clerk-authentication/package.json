@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^2.10.1",
+    "@clerk/nextjs": "^4.0.0",
     "@headlessui/react": "^1.4.3",
     "@heroicons/react": "^1.0.5",
     "@peculiar/webcrypto": "^1.2.3",
@@ -18,12 +18,12 @@
     "next": "^16.1.7",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "swiper": "^8.0.2"
+    "swiper": "^12.1.2"
   },
   "devDependencies": {
     "@types/node": "^17.0.14",
     "autoprefixer": "^10.4.2",
-    "eslint": "^8.9.0",
+    "eslint": "^9.26.0",
     "eslint-config-next": "canary",
     "postcss": "^8.4.6",
     "prettier": "^2.5.1",
