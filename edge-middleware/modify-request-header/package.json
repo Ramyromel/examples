@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@vercel/examples-ui": "^1.0.5",
-    "next": "14.2.32",
+    "next": "15.5.10",
     "react": "latest",
     "react-dom": "latest"
   },
